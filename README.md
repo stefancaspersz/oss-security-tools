@@ -19,7 +19,6 @@
 
 ### Longer more in depth schedule
 
-```html
 ### What is in this training:
 
 1. Training introduction - 30 minutes
@@ -110,4 +109,3 @@ Targeting Developers - 30 mins
         2. account confusion
     2. collaborators
 13. Hands on interactive CTF - 60 mins
-```
