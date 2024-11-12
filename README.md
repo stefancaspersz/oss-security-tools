@@ -86,10 +86,10 @@ Contact Details:  paulm@sourcecodered.com and my GitHub handle is [6mile](https:
       1. Managing networks is time intensive
    1. **EXERCISE**: Create your first sock puppet dev
 10. Introducing [OSC&R framework](https://pbom.dev) - 15 mins
-11. Build clout in GitHub
+11. Build clout in GitHub - 30 mins
     1. Leverage code puppet network
-    1. Create a PR
     1. Use [Semgrep](https://github.com/semgrep/semgrep) to Find a bug in a repo and correct it.
+    1. Create a PR
 12. Package Ecosystem Attacks - 30 minutes
     1. Dependency confusion
        1. Identifying dependency confusion opportunities in npm
@@ -98,7 +98,7 @@ Contact Details:  paulm@sourcecodered.com and my GitHub handle is [6mile](https:
           1. [DockerHub](https://www.errno.fr/DockerDependencyConfusion.html#im-using-docker-am-i-affected)
     1. Typosquatting
     1. Obfuscation
-14. Publish a malicious npm package
+14. Publish a malicious npm package - 60 mins
     1. What is your target? (use TVPO)
        1. Dependency confusion
        1. Typo-squat 
