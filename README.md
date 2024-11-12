@@ -1,10 +1,15 @@
 # Red Teaming the software supply chain - 1 day event
 
-### Things to know about this training
+### Your Trainer
+
+Paul McCarty
+Contact Details:  paulm@sourcecodered.com and my GitHub handle is [6mile](https://github.com/6mile). 
+
+### Things to know before starting
 
 1. This class has an offensive security focus but also has a lot to offer to software engineers and defenders as well.  Please don't feel like you need to have an offensive security background to get something from this class.  I will talk to the different roles and personas in the class.
 2. Please bring a laptop that you can do "hackery" stuff on.  Usually there are a couple people in each class that bring work laptops that won't let them do the stuff they need to do like install npm packages, or use Google drive, or whatever.  So I suggest you bring a personal laptop that you have administrative permissions on.  It's not fair to the rest of the attendees if I have to troubleshoot one person's computer all day.
-3. If you don't have a GitHub account, please [sign up](https://github.com/join) for one before the training.  If you aren't familiar with GitHub you can check out this intro to GitHub .  If you want to send me your GitHub username before the training starts I can add you to the repo ahead of time.  
+3. If you don't have a GitHub account, please [sign up](https://github.com/join) for one before the training.  If you aren't familiar with GitHub you can check out this [intro to GitHub](https://docs.github.com/en/get-started/start-your-journey/hello-world).  If you want to send me your GitHub username before the training starts I can add you to the repo ahead of time.  
 4. Please have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), [node and npm](https://nodejs.org/en/download/package-manager) installed before the class.  If you have issues I can help you before class starts to get these tools installed and working.
 5. It's not strictly necessary, but having other tools like [Python 3](https://www.python.org/downloads/), [pip](https://pip.pypa.io/en/stable/installation/), Project Discovery's [Nuclei](https://github.com/projectdiscovery/nuclei), [Chaos](https://docs.projectdiscovery.io/tools/chaos/install), [httpx](https://github.com/projectdiscovery/httpx), [dnsx](https://github.com/projectdiscovery/dnsx) and [subfinder](https://github.com/projectdiscovery/subfinder); as well as other tools like [Trufflehog](https://github.com/trufflesecurity/trufflehog), [Gitleaks](https://github.com/gitleaks/gitleaks), [Semgrep](https://github.com/semgrep/semgrep), and [Trivy](https://github.com/aquasecurity/trivy) installed helps too.  Feel free to have a play around with them as well.  
 6. I use a Mac and/or Linux but if you've got a Microsoft operating system, I highly suggest you install "Windows Subsystem for Linux" or WSL.  You can read about WSL [here](https://learn.microsoft.com/en-us/windows/wsl/install) .  Alternatively, you can install a VM or work out of another online or cloud server.  
@@ -43,7 +48,7 @@
    1. How attackers attack
    1. Your training/targeting perspective defines what the target is
    1. Recent history of SSC attacks
-   1. Package ecosystem attacks:  NPM, PyPi, DockerHub, RubyGems, etc
+   1. Package ecosystem attacks:  npm, PyPi, DockerHub, RubyGems, etc
    1. XZ
    1. Dockerhub
    1. GitHub Forks Attack
@@ -87,19 +92,26 @@
 12. Package Ecosystem Attacks - 30 minutes
    1. Dependency confusion
       1. Identifying dependency confusion opportunities in npm
-         1. NPM - Use the [Confused library](https://github.com/visma-prodsec/confused)
-         1. PyPI
-         1. DockerHub
+         1. npm - Use the [Confused library](https://github.com/visma-prodsec/confused)
+         1. PyPI - You can use Confused for pip as well
+         1. [DockerHub](https://www.errno.fr/DockerDependencyConfusion.html#im-using-docker-am-i-affected)
    1. Typosquatting
    1. Obfuscation
 14. Publish a malicious npm package
-   1. Create a npm account
-   1. Connect legitimate GitHub Repo
-   1. Add collaborators
+   1. Create a [npm account](https://www.npmjs.com/signup)
+   1. Build a realistic npm package
+      1. Use this [repository]https://github.com/sourcecodered/example-npm-package) to create first npm package
+   1. Connect legitimate GitHub Repo in npm user profile
+   1. Add collaborators 
    1. Learn how to create a package and publish
 15. Targeting Developers - 30 mins
+   1. git level attacks
+      1. Commit signing
    1. maintainers of packages
       1. account takeover
       1. account confusion
    1. collaborators
+   1. Malicious GitHub apps
 16. End of training:  receive swag and certificate!
+
+
