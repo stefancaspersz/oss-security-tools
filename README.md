@@ -62,50 +62,50 @@
    1. Attacks on software developers
 7. **BREAK FOR LUNCH**
 8. Target, Value, Patterns & Objectives - 30 minutes
-    1. Target - Who or what is the focus of the offensive activities
-        1. Is your target an application?  A company?  A open-source project?
-    2. Value - The reason the target has been selected, or the benefit the target provides to an attacker
-    3. Patterns - Repeated traits of an individual human, or an organization, that makes that target susceptible to attack.
-        1. Common organizational Patterns
-        2. Individual developer Behaviours
-    4. Objectives - The timeline, goals, and outcomes that the attacker aims to achieve through the offensive operation.
-9. Developer Sock Puppets - 45 mins
-    1. Creating dev sock puppets
-        1. Good name
-        2. email
-        3. phone number
-        4. Paid account to unlock functions
-        5. Photo or image
-    2. Managing sock puppets
-        1. Activity Graph
-        2. member of organizations?
-        3. Contributing to projects
-            1. How to find good projects to contribute to
-            2. Leverage projects to gain access to other projects
-        4. correlate with other platforms: facebook, stackoverflow, reddit, etc
-        5. Two types of puppets:  Long term and throw away
-    3. Sock puppet networks
-        1. Do your sock puppets co-exist for social proof?
-        2. Are your sock puppets lone wolfs?  Social proof is lower.
-        3. Managing networks is time intensive
-    4. **EXERCISE**: Create your first sock puppet dev
-11. Introducing the OSC&R threat matrix
-12. Dependency Confusion - 60 mins
-    1. Different types of dependency confusion
-        1. packages
-            1. forking
-            2. lookalike & typosquatting
-        2. system components
-        3. containers
-    2. Identifying dependency confusion opportunities
-        1. NPM
-        2. PyPI
-        3. DockerHub
-13. 
-
-Targeting Developers - 30 mins
-    1. maintainers of packages
-        1. account takeover
-        2. account confusion
-    2. collaborators
-13. Hands on interactive CTF - 60 mins
+   1. Target - Who or what is the focus of the offensive activities
+      1. Is your target an application?  A company?  A open-source project?
+   1. Value - The reason the target has been selected, or the benefit the target provides to an attacker
+   1. Patterns - Repeated traits of an individual human, or an organization, that makes that target susceptible to attack.
+      1. Common organizational Patterns
+      1. Individual developer Behaviours
+9. Objectives - The timeline, goals, and outcomes that the attacker aims to achieve through the offensive operation.
+10. Developer Sock Puppets - 45 mins
+   1. Creating dev sock puppets
+      1. Good name
+      1. email
+      1. phone number
+      1. Paid account to unlock functions
+      1. Photo or image
+   1. Managing sock puppets
+      1. Activity Graph
+      1. member of organizations?
+      1. Contributing to projects
+         1. How to find good projects to contribute to
+         1. Leverage projects to gain access to other projects
+      1. correlate with other platforms: facebook, stackoverflow, reddit, etc
+      1. Two types of puppets:  Long term and throw away
+   1. Sock puppet networks
+      1. Do your sock puppets co-exist for social proof?
+      1. Are your sock puppets lone wolfs?  Social proof is lower.
+      1. Managing networks is time intensive
+   1. **EXERCISE**: Create your first sock puppet dev
+11. Introducing OSC&R [framework](https://pbom.dev) - 15 mins
+12. Find a bug in a repo and correct it.  Then make a PR.  
+13. Dependency Confusion - 60 mins
+   1. Different types of dependency confusion
+      1. packages
+         1. forking
+         2. lookalike & typosquatting
+      1. system components
+      1. containers
+   1. Identifying dependency confusion opportunities
+      1. NPM
+      1. PyPI
+      1. DockerHub
+14. Create a malicious NPM package and use the tricks in class to 
+15. Targeting Developers - 30 mins
+   1. maintainers of packages
+      1. account takeover
+      1. account confusion
+   1. collaborators
+16. End of training:  receive swag and certificate!
