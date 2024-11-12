@@ -18,7 +18,7 @@
    1. How do penetration testing, red teaming and bug bounty programs co-exist?
 5. What is the software supply chain (SSC)? - 45 minutes (Visualizing the Software Supply Chain)
    1. What components make up the SSC
-   1. What’s in your software supply chain? - **EXERCISE**
+   1. What’s in your software supply chain? - [EXERCISE](https://docs.google.com/forms/d/e/1FAIpQLSe1JU9stBqd_fMRXl81wwG_DP04pFp5KWOCDgLPS0jsSuolRA/viewform?usp=sf_link)
    1. Why do we need to attack & defend this supply chain?
       1. Attacks on the SSC are increasing
       1. Applications are getting more complex with more moving pieces
