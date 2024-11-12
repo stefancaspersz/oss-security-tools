@@ -87,40 +87,40 @@ Contact Details:  paulm@sourcecodered.com and my GitHub handle is [6mile](https:
    1. **EXERCISE**: Create your first sock puppet dev
 10. Introducing [OSC&R framework](https://pbom.dev) - 15 mins
 11. Build clout in GitHub
-   1. Leverage code puppet network
-   1. Create a PR
-   1. Use [Semgrep](https://github.com/semgrep/semgrep) to Find a bug in a repo and correct it.
+    1. Leverage code puppet network
+    1. Create a PR
+    1. Use [Semgrep](https://github.com/semgrep/semgrep) to Find a bug in a repo and correct it.
 12. Package Ecosystem Attacks - 30 minutes
-   1. Dependency confusion
-      1. Identifying dependency confusion opportunities in npm
-         1. npm - Use the [Confused library](https://github.com/visma-prodsec/confused)
-         1. PyPI - You can use Confused for pip as well
-         1. [DockerHub](https://www.errno.fr/DockerDependencyConfusion.html#im-using-docker-am-i-affected)
-   1. Typosquatting
-   1. Obfuscation
+    1. Dependency confusion
+       1. Identifying dependency confusion opportunities in npm
+          1. npm - Use the [Confused library](https://github.com/visma-prodsec/confused)
+          1. PyPI - You can use Confused for pip as well
+          1. [DockerHub](https://www.errno.fr/DockerDependencyConfusion.html#im-using-docker-am-i-affected)
+    1. Typosquatting
+    1. Obfuscation
 14. Publish a malicious npm package
-   1. What is your target? (use TVPO)
-      1. Dependency confusion
-      1. Typo-squat 
-      1. Legitimate value?  ie., You aren't tricking target into installing.  Instead, you are giving something they want.
-   1. Create a [npm account](https://www.npmjs.com/signup)
-   1. Build a realistic npm package
-      1. Use this [repository](https://github.com/sourcecodered/example-npm-package) to create first npm package
-   1. Connect legitimate GitHub Repo in npm user profile
-   1. Add collaborators 
-   1. Learn how to create a package and publish
+    1. What is your target? (use TVPO)
+       1. Dependency confusion
+       1. Typo-squat 
+       1. Legitimate value?  ie., You aren't tricking target into installing.  Instead, you are giving something they want.
+    1. Create a [npm account](https://www.npmjs.com/signup)
+    1. Build a realistic npm package
+       1. Use this [repository](https://github.com/sourcecodered/example-npm-package) to create first npm package
+    1. Connect legitimate GitHub Repo in npm user profile
+    1. Add collaborators 
+    1. Learn how to create a package and publish
 15. Research what the bad guys are doing so we can learn from them - 30 mins
-   1. OSV
-   1. GitHub Advisory Database (GHSA)
-   1. PyPi Malicious Registry
-15. Targeting Developers - 30 mins
-   1. git level attacks
-      1. Commit signing
-   1. maintainers of packages
-      1. account takeover
-      1. account confusion
-   1. collaborators
-   1. Malicious GitHub apps
-16. End of training:  receive swag and certificate!
+    1. OSV
+    1. GitHub Advisory Database (GHSA)
+    1. PyPi Malicious Registry
+16. Targeting Developers - 30 mins
+    1. git level attacks
+       1. Commit signing
+    1. maintainers of packages
+       1. account takeover
+       1. account confusion
+    1. collaborators
+    1. Malicious GitHub apps
+17. End of training:  receive swag and certificate!
 
 
