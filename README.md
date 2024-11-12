@@ -22,44 +22,44 @@
 ### What is in this training:
 
 1. Training introduction - 30 minutes
- * Goals of this training
- * Make sure we have requirements in place
- * Main takeaways from this workshop
- * Who is the audience for this course?
+   1. Goals of this training
+   1. Make sure we have requirements in place
+   1. Main takeaways from this workshop
+   1. Who is the audience for this course?
 2. Your instructor - 15 minutes
- * Paul bio
- * Open source projects I work on
- * Where you can find me
+   1. Paul bio
+   1. Open source projects I work on
+   1. Where you can find me
 3. Glossary - 15 mins
 4. What is a Red Team? - 30 mins
- * What does a traditional red team do?
- * What does an evolving red team do?
- * How do penetration testing, red teaming and bug bounty programs co-exist?
+   1. What does a traditional red team do?
+   1. What does an evolving red team do?
+   1. How do penetration testing, red teaming and bug bounty programs co-exist?
 5. What is the software supply chain (SSC)? - 45 minutes (Visualizing the Software Supply Chain)
-    1 What components make up the SSC
-    2 What’s in your software supply chain? - **EXERCISE**
-    3 Why do we need to attack & defend this supply chain?
-        1. Attacks on the SSC are increasing
-        2. Applications are getting more complex with more moving pieces
-    4. What is CI/CD and why is it important?
-    5. Talk about how the applications we are building today are materially different, and more complex than earlier applications.
-    6. Introduce the “Visualizing Software Supply Chain" project. The VSSC project helps people understand whats in scope visually.
-    a. Explain the ten stages of the SSC
-    b. Explain how all applications do NOT use all ten stages
-    7. Show the group how to asses an application using the VSSC project
-    a. Use MyGov as an example
+   1. What components make up the SSC
+   1. What’s in your software supply chain? - **EXERCISE**
+   1. Why do we need to attack & defend this supply chain?
+      1. Attacks on the SSC are increasing
+      1. Applications are getting more complex with more moving pieces
+   1.  What is CI/CD and why is it important?
+   1.  Talk about how the applications we are building today are materially different, and more complex than earlier applications.
+   1.  Introduce the “Visualizing Software Supply Chain" project. The VSSC project helps people understand whats in scope visually.
+   1.  Explain the ten stages of the SSC
+   1.  Explain how all applications do NOT use all ten stages
+   1.  Show the group how to asses an application using the VSSC project
+   1.  Use MyGov as an example
 6. Attacks on the SSC - 30 minutes
-    1. How attackers attack
-    2. Your training/targeting perspective defines what the target is
-    3. Recent history of SSC attacks
-        1. Package ecosystem attacks:  NPM, PyPi, DockerHub, RubyGems, etc
-        2. XZ
-        3. Dockerhub
-        4. GitHub Forks Attack
-        5. Malicious GitHub Attacks
-        6. Malicious containers attacks
-        7. Solarwinds
-        8. Attacks on software developers
+   1. How attackers attack
+   1. Your training/targeting perspective defines what the target is
+   1. Recent history of SSC attacks
+   1. Package ecosystem attacks:  NPM, PyPi, DockerHub, RubyGems, etc
+   1. XZ
+   1. Dockerhub
+   1. GitHub Forks Attack
+   1. Malicious GitHub Attacks
+   1. Malicious containers attacks
+   1. Solarwinds
+   1. Attacks on software developers
 7. **BREAK FOR LUNCH**
 8. Target, Value, Patterns & Objectives - 30 minutes
     1. Target - Who or what is the focus of the offensive activities
