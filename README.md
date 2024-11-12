@@ -16,7 +16,7 @@
    1. What does a traditional red team do?
    1. What does an evolving red team do?
    1. How do penetration testing, red teaming and bug bounty programs co-exist?
-5. What is the software supply chain (SSC)? - 45 minutes (Visualizing the Software Supply Chain)
+5. What is the software supply chain (SSC)? - 45 minutes
    1. What components make up the SSC
    1. What’s in your software supply chain? - [EXERCISE](https://docs.google.com/forms/d/e/1FAIpQLSe1JU9stBqd_fMRXl81wwG_DP04pFp5KWOCDgLPS0jsSuolRA/viewform?usp=sf_link)
    1. Why do we need to attack & defend this supply chain?
@@ -24,7 +24,7 @@
       1. Applications are getting more complex with more moving pieces
    1.  What is CI/CD and why is it important?
    1.  Talk about how the applications we are building today are materially different, and more complex than earlier applications.
-   1.  Introduce the “Visualizing Software Supply Chain" project. The VSSC project helps people understand whats in scope visually.
+   1.  Introduce the [“Visualizing Software Supply Chain"](https://github.com/SecureStackCo/visualizing-software-supply-chain) project. The VSSC project helps people understand whats in scope visually.
    1.  Explain the ten stages of the SSC
    1.  Explain how all applications do NOT use all ten stages
    1.  Show the group how to asses an application using the VSSC project
@@ -42,7 +42,7 @@
    1. Solarwinds
    1. Attacks on software developers
 7. **BREAK FOR LUNCH**
-8. Target, Value, Patterns & Objectives - 30 minutes
+8. Target, Value, Patterns & Objectives [TVPO](https://github.com/6mile/tvpo) - 30 minutes
    1. Target - Who or what is the focus of the offensive activities
       1. Is your target an application?  A company?  A open-source project?
    1. Value - The reason the target has been selected, or the benefit the target provides to an attacker
@@ -70,9 +70,9 @@
       1. Are your sock puppets lone wolfs?  Social proof is lower.
       1. Managing networks is time intensive
    1. **EXERCISE**: Create your first sock puppet dev
-10. Introducing OSC&R [framework](https://pbom.dev) - 15 mins
+10. Introducing [OSC&R framework](https://pbom.dev) - 15 mins
 11. Build rep in GitHub
-   1. Use Semgrep to Find a bug in a repo and correct it.
+   1. Use [Semgrep](https://github.com/semgrep/semgrep) to Find a bug in a repo and correct it.
    1. Create a PR
 12. Package Ecosystem Attacks - 30 minutes
    1. Dependency confusion
