@@ -1,25 +1,6 @@
 # Red Teaming the software supply chain - 1 day event
 
-### What is in this training:
-
-1. Training introduction - 30 minutes
-2. Your instructor - 15 minutes
-3. Glossary - 15 mins
-4. What is a Red Team? - 45 mins
-5. **EXERCISE:** What is the software supply chain (SSC)? - 45 minutes (Visualizing the Software Supply Chain)
-6. Attacks on the SSC - 30 minutes
-7. **LUNCH BREAK @ Noon**
-8. Threat modelling the SSC:  TVPO - 30 minutes
-9. Developer Sock Puppets - 45 mins
-10. Introducing OSC&R [framework](https://pbom.dev) - 15 mins
-11. Find a bug in a repo and correct it.  Then make a PR.  
-12. Dependency confusion
-13. Create a malicious NPM package and use the tricks in class to 
-14. End of training:  receive swag and certificate!
-
-### Longer more in depth schedule
-
-### What is in this training:
+### The Detailed Outline for the Training
 
 1. Training introduction - 30 minutes
    1. Goals of this training
@@ -68,8 +49,8 @@
    1. Patterns - Repeated traits of an individual human, or an organization, that makes that target susceptible to attack.
       1. Common organizational Patterns
       1. Individual developer Behaviours
-9. Objectives - The timeline, goals, and outcomes that the attacker aims to achieve through the offensive operation.
-10. Developer Sock Puppets - 45 mins
+   1. Objectives - The timeline, goals, and outcomes that the attacker aims to achieve through the offensive operation.
+9. Developer Sock Puppets - 45 mins
    1. Creating dev sock puppets
       1. Good name
       1. email
@@ -89,20 +70,23 @@
       1. Are your sock puppets lone wolfs?  Social proof is lower.
       1. Managing networks is time intensive
    1. **EXERCISE**: Create your first sock puppet dev
-11. Introducing OSC&R [framework](https://pbom.dev) - 15 mins
-12. Find a bug in a repo and correct it.  Then make a PR.  
-13. Dependency Confusion - 60 mins
-   1. Different types of dependency confusion
-      1. packages
-         1. forking
-         2. lookalike & typosquatting
-      1. system components
-      1. containers
-   1. Identifying dependency confusion opportunities
-      1. NPM
-      1. PyPI
-      1. DockerHub
-14. Create a malicious NPM package and use the tricks in class to 
+10. Introducing OSC&R [framework](https://pbom.dev) - 15 mins
+11. Build rep in GitHub
+   1. Use Semgrep to Find a bug in a repo and correct it.
+   1. Create a PR
+12. Package Ecosystem Attacks - 30 minutes
+   1. Dependency confusion
+      1. Identifying dependency confusion opportunities in npm
+         1. NPM - Use the [Confused library](https://github.com/visma-prodsec/confused)
+         1. PyPI
+         1. DockerHub
+   1. Typosquatting
+   1. Obfuscation
+14. Publish a malicious npm package
+   1. Create a npm account
+   1. Connect legitimate GitHub Repo
+   1. Add collaborators
+   1. Learn how to create a package and publish
 15. Targeting Developers - 30 mins
    1. maintainers of packages
       1. account takeover
