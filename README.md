@@ -100,7 +100,7 @@ Contact Details:  paulm@sourcecodered.com and my GitHub handle is [6mile](https:
 14. Publish a malicious npm package
    1. Create a [npm account](https://www.npmjs.com/signup)
    1. Build a realistic npm package
-      1. Use this [repository]https://github.com/sourcecodered/example-npm-package) to create first npm package
+      1. Use this [repository](https://github.com/sourcecodered/example-npm-package) to create first npm package
    1. Connect legitimate GitHub Repo in npm user profile
    1. Add collaborators 
    1. Learn how to create a package and publish
