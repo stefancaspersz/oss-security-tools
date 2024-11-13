@@ -1,5 +1,7 @@
 # Red Teaming the software supply chain - 1 day event
 
+![SourceCodeRED](./sourcecodered-new-horizontal-logo.png)
+
 ### All content is copyright Paul McCarty 2024
 
 ### Your Trainer
@@ -9,13 +11,14 @@ Contact Details:  paulm@sourcecodered.com and my GitHub handle is [6mile](https:
 
 ### Things to know before starting
 
-1. This class has an offensive security focus but also has a lot to offer to software engineers and defenders as well.  Please don't feel like you need to have an offensive security background to get something from this class.  I will talk to the different roles and personas in the class.
-2. Please bring a laptop that you can do "hackery" stuff on.  Usually there are a couple people in each class that bring work laptops that won't let them do the stuff they need to do like install npm packages, or use Google drive, or whatever.  So I suggest you bring a personal laptop that you have administrative permissions on.  It's not fair to the rest of the attendees if I have to troubleshoot one person's computer all day.
-3. If you don't have a GitHub account, please [sign up](https://github.com/join) for one before the training.  If you aren't familiar with GitHub you can check out this [intro to GitHub](https://docs.github.com/en/get-started/start-your-journey/hello-world).  If you want to send me your GitHub username before the training starts I can add you to the repo ahead of time.  
-4. Please have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), [node and npm](https://nodejs.org/en/download/package-manager) installed before the class.  If you have issues I can help you before class starts to get these tools installed and working.
-5. It's not strictly necessary, but having other tools like [Python 3](https://www.python.org/downloads/), [pip](https://pip.pypa.io/en/stable/installation/), Project Discovery's [Nuclei](https://github.com/projectdiscovery/nuclei), [Chaos](https://docs.projectdiscovery.io/tools/chaos/install), [httpx](https://github.com/projectdiscovery/httpx), [dnsx](https://github.com/projectdiscovery/dnsx) and [subfinder](https://github.com/projectdiscovery/subfinder); as well as other tools like [Trufflehog](https://github.com/trufflesecurity/trufflehog), [Gitleaks](https://github.com/gitleaks/gitleaks), [Semgrep](https://github.com/semgrep/semgrep), and [Trivy](https://github.com/aquasecurity/trivy) installed helps too.  Feel free to have a play around with them as well.  
-6. I use a Mac and/or Linux but if you've got a Microsoft operating system, I highly suggest you install "Windows Subsystem for Linux" or WSL.  You can read about WSL [here](https://learn.microsoft.com/en-us/windows/wsl/install) .  Alternatively, you can install a VM or work out of another online or cloud server.  
-7. At the end of the session you will get a physical certificate saying you completed the training.  If you want a different name on the certificate please respond to this privately and let me know.
+1. I've tried really hard to give you a good foundation of software supply chain offensive operations in one day.  Of course, its actually impossible to do that and to make the course fun and palatable, so I've tried really hard to find a balance.  If you want more in depth training, I offer longer private engagements. 
+2. This class has an offensive security focus but also has a lot to offer to software engineers and defenders as well.  Please don't feel like you need to have an offensive security background to get something from this class.  I will talk to the different roles and personas in the class.
+3. Please bring a laptop that you can do "hackery" stuff on.  Usually there are a couple people in each class that bring work laptops that won't let them do the stuff they need to do like install npm packages, or use Google drive, or whatever.  So I suggest you bring a personal laptop that you have administrative permissions on.  It's not fair to the rest of the attendees if I have to troubleshoot one person's computer all day.
+4. If you don't have a GitHub account, please [sign up](https://github.com/join) for one before the training.  If you aren't familiar with GitHub you can check out this [intro to GitHub](https://docs.github.com/en/get-started/start-your-journey/hello-world).  If you want to send me your GitHub username before the training starts I can add you to the repo ahead of time.  
+5. Please have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), [node and npm](https://nodejs.org/en/download/package-manager) installed before the class.  If you have issues I can help you before class starts to get these tools installed and working.
+6. It's not strictly necessary, but having other tools like [Python 3](https://www.python.org/downloads/), [pip](https://pip.pypa.io/en/stable/installation/), Project Discovery's [Nuclei](https://github.com/projectdiscovery/nuclei), [Chaos](https://docs.projectdiscovery.io/tools/chaos/install), [httpx](https://github.com/projectdiscovery/httpx), [dnsx](https://github.com/projectdiscovery/dnsx) and [subfinder](https://github.com/projectdiscovery/subfinder); as well as other tools like [Trufflehog](https://github.com/trufflesecurity/trufflehog), [Gitleaks](https://github.com/gitleaks/gitleaks), [Semgrep](https://github.com/semgrep/semgrep), and [Trivy](https://github.com/aquasecurity/trivy) installed helps too.  Feel free to have a play around with them as well.  
+7. I use a Mac and/or Linux but if you've got a Microsoft operating system, I highly suggest you install "Windows Subsystem for Linux" or WSL.  You can read about WSL [here](https://learn.microsoft.com/en-us/windows/wsl/install) .  Alternatively, you can install a VM or work out of another online or cloud server.  
+8. At the end of the session you will get a physical certificate saying you completed the training.  If you want a different name on the certificate please respond to this privately and let me know.
 
 ### The Detailed Outline for the Training
 
@@ -58,13 +61,13 @@ Contact Details:  paulm@sourcecodered.com and my GitHub handle is [6mile](https:
    1. Malicious containers attacks
    1. Solarwinds
    1. Attacks on software developers
-7. Gaining visibility into your SSC 
+7. Gaining visibility into your SSC - 30 minutes
    1. Use the VSSC project as the foundation
       1. Start with individual engineers and ask them to perform their own asset discovery process 
       1. Then run tabletop excercises with engineering teams
       1. Create lists, then when it matures, create maps
-8. **BREAK FOR LUNCH**
-9. Target, Value, Patterns & Objectives [TVPO](https://github.com/6mile/tvpo) - 30 minutes
+**BREAK FOR LUNCH**
+8. Target, Value, Patterns & Objectives [TVPO](https://github.com/6mile/tvpo) - 30 minutes
    1. Target - Who or what is the focus of the offensive activities
       1. Is your target an application?  A company?  A open-source project?
    1. Value - The reason the target has been selected, or the benefit the target provides to an attacker
@@ -72,7 +75,7 @@ Contact Details:  paulm@sourcecodered.com and my GitHub handle is [6mile](https:
       1. Common organizational Patterns
       1. Individual developer Behaviours
    1. Objectives - The timeline, goals, and outcomes that the attacker aims to achieve through the offensive operation.
-10. Developer Sock Puppets - 45 mins
+9. Developer Sock Puppets - 45 mins
    1. Creating dev sock puppets
       1. Good name
       1. email
@@ -92,12 +95,12 @@ Contact Details:  paulm@sourcecodered.com and my GitHub handle is [6mile](https:
       1. Are your sock puppets lone wolfs?  Social proof is lower.
       1. Managing networks is time intensive
    1. **EXERCISE**: Create your first sock puppet dev
-11. Introducing [OSC&R framework](https://pbom.dev) - 15 mins
-12. Build clout in GitHub - 30 mins
+10. Introducing [OSC&R framework](https://pbom.dev) - 15 mins
+11. Build clout in GitHub - 30 mins
     1. Leverage code puppet network
     1. Use [Semgrep](https://github.com/semgrep/semgrep) to Find a bug in a repo and correct it.
     1. Create a PR
-13. Package Ecosystem Attacks - 30 minutes
+12. Package Ecosystem Attacks - 30 minutes
     1. Dependency confusion
        1. Identifying dependency confusion opportunities in npm
           1. npm - Use the [Confused library](https://github.com/visma-prodsec/confused)
@@ -105,7 +108,7 @@ Contact Details:  paulm@sourcecodered.com and my GitHub handle is [6mile](https:
           1. [DockerHub](https://www.errno.fr/DockerDependencyConfusion.html#im-using-docker-am-i-affected)
     1. Typosquatting
     1. Obfuscation
-14. Publish a malicious npm package - 60 mins
+13. Publish a malicious npm package - 60 mins
     1. What is your target? (use TVPO)
        1. Dependency confusion
        1. Typo-squat 
@@ -116,11 +119,11 @@ Contact Details:  paulm@sourcecodered.com and my GitHub handle is [6mile](https:
     1. Connect legitimate GitHub Repo in npm user profile
     1. Add collaborators 
     1. Learn how to create a package and publish
-15. Research what the bad guys are doing so we can learn from them - 30 mins
+14. Research what the bad guys are doing so we can learn from them - 30 mins
     1. OSV
     1. GitHub Advisory Database (GHSA)
     1. PyPi Malicious Registry
-16. Targeting Developers - 30 mins
+15. Targeting Developers - 30 mins
     1. git level attacks
        1. Commit signing
     1. maintainers of packages
@@ -128,6 +131,6 @@ Contact Details:  paulm@sourcecodered.com and my GitHub handle is [6mile](https:
        1. account confusion
     1. collaborators
     1. Malicious GitHub apps
-17. End of training:  receive swag and certificate!
+16. End of training:  receive swag and certificate!
 
 
