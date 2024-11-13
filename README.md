@@ -1,5 +1,7 @@
 # Red Teaming the software supply chain - 1 day event
 
+### All content is copyright Paul McCarty 2024
+
 ### Your Trainer
 
 Paul McCarty
@@ -56,8 +58,13 @@ Contact Details:  paulm@sourcecodered.com and my GitHub handle is [6mile](https:
    1. Malicious containers attacks
    1. Solarwinds
    1. Attacks on software developers
-7. **BREAK FOR LUNCH**
-8. Target, Value, Patterns & Objectives [TVPO](https://github.com/6mile/tvpo) - 30 minutes
+7. Gaining visibility into your SSC 
+   1. Use the VSSC project as the foundation
+      1. Start with individual engineers and ask them to perform their own asset discovery process 
+      1. Then run tabletop excercises with engineering teams
+      1. Create lists, then when it matures, create maps
+8. **BREAK FOR LUNCH**
+9. Target, Value, Patterns & Objectives [TVPO](https://github.com/6mile/tvpo) - 30 minutes
    1. Target - Who or what is the focus of the offensive activities
       1. Is your target an application?  A company?  A open-source project?
    1. Value - The reason the target has been selected, or the benefit the target provides to an attacker
@@ -65,7 +72,7 @@ Contact Details:  paulm@sourcecodered.com and my GitHub handle is [6mile](https:
       1. Common organizational Patterns
       1. Individual developer Behaviours
    1. Objectives - The timeline, goals, and outcomes that the attacker aims to achieve through the offensive operation.
-9. Developer Sock Puppets - 45 mins
+10. Developer Sock Puppets - 45 mins
    1. Creating dev sock puppets
       1. Good name
       1. email
@@ -85,12 +92,12 @@ Contact Details:  paulm@sourcecodered.com and my GitHub handle is [6mile](https:
       1. Are your sock puppets lone wolfs?  Social proof is lower.
       1. Managing networks is time intensive
    1. **EXERCISE**: Create your first sock puppet dev
-10. Introducing [OSC&R framework](https://pbom.dev) - 15 mins
-11. Build clout in GitHub - 30 mins
+11. Introducing [OSC&R framework](https://pbom.dev) - 15 mins
+12. Build clout in GitHub - 30 mins
     1. Leverage code puppet network
     1. Use [Semgrep](https://github.com/semgrep/semgrep) to Find a bug in a repo and correct it.
     1. Create a PR
-12. Package Ecosystem Attacks - 30 minutes
+13. Package Ecosystem Attacks - 30 minutes
     1. Dependency confusion
        1. Identifying dependency confusion opportunities in npm
           1. npm - Use the [Confused library](https://github.com/visma-prodsec/confused)
