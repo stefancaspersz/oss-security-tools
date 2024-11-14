@@ -49,7 +49,7 @@ Contact Details:  paulm@sourcecodered.com and my GitHub handle is [6mile](https:
    1.  Explain how all applications do NOT use all ten stages
    1.  Show the group how to asses an application using the VSSC project
    1.  Use MyGov as an example
-6. Attacks on the SSC - 30 minutes
+6. Historical Attacks on the SSC - 30 minutes
    1. How attackers attack
    1. Your training/targeting perspective defines what the target is
    1. Recent history of SSC attacks
@@ -83,7 +83,7 @@ Contact Details:  paulm@sourcecodered.com and my GitHub handle is [6mile](https:
       1. Paid account to unlock functions
       1. Photo or image
    1. Managing sock puppets
-      1. Activity Graph
+      1. Activity Graph - see [fake-git-history repo](https://github.com/artiebits/fake-git-history)
       1. member of organizations?
       1. Contributing to projects
          1. How to find good projects to contribute to
@@ -96,7 +96,7 @@ Contact Details:  paulm@sourcecodered.com and my GitHub handle is [6mile](https:
       1. Managing networks is time intensive
    1. **EXERCISE**: Create your first sock puppet dev
 10. Introducing [OSC&R framework](https://pbom.dev) - 15 mins
-11. Build clout in GitHub - 30 mins
+11. Build ecosystem clout - 30 mins
     1. Leverage code puppet network
     1. Use [Semgrep](https://github.com/semgrep/semgrep) to Find a bug in a repo and correct it.
     1. Create a PR
@@ -108,6 +108,9 @@ Contact Details:  paulm@sourcecodered.com and my GitHub handle is [6mile](https:
           1. [DockerHub](https://www.errno.fr/DockerDependencyConfusion.html#im-using-docker-am-i-affected)
     1. Typosquatting
     1. Obfuscation
+    1. Open-source package targeting
+          1. OpenSSF [Scorecard](https://github.com/ossf/scorecard) - Helps you determine how secure is an open-source package?
+          1. Developer identity hacking with [commit-audit](https://github.com/6mile/commit-audit)
 13. Publish a malicious npm package - 60 mins
     1. What is your target? (use TVPO)
        1. Dependency confusion
