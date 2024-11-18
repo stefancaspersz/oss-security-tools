@@ -1,0 +1,14 @@
+services:
+  tools:
+    build:
+      context: .
+    environment:
+      PDCP_API_KEY: ${PDCP_API_KEY:-}
+      ENABLE_CLOUD_UPLOAD: ${ENABLE_CLOUD_UPLOAD:-false}
+      SEMGREP_APP_TOKEN: ${SEMGREP_APP_TOKEN:-}
+      TRIVY_DB_REPOSITORY: ${TRIVY_DB_REPOSITORY:-public.ecr.aws/aquasecurity/trivy-db}
+      TRIVY_JAVA_DB_REPOSITORY: ${TRIVY_JAVA_DB_REPOSITORY:-public.ecr.aws/aquasecurity/trivy-java-db}
+    volumes:
+      - root:/root
+volumes:
+    root:
