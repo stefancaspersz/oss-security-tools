@@ -5,7 +5,7 @@ SHELL ["/bin/bash", "-c"]
 USER root
 WORKDIR /root
 
-RUN apt-get update && apt-get install -y dnsutils git make iputils-ping python3-full vim wget && apt-get clean \
+RUN apt-get update && apt-get install -y dnsutils git iputils-ping make python3-full vim wget && apt-get clean \
 && wget -q https://go.dev/dl/go1.23.3.linux-arm64.tar.gz \
 && rm -rf /usr/local/go && tar -C /usr/local -xzf go1.23.3.linux-arm64.tar.gz \
 && echo "export PATH=$PATH:/usr/local/go/bin:/root/go/bin/" >> /root/.bashrc && source /root/.bashrc \
